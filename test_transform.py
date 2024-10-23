@@ -2,7 +2,7 @@
 
 import pytest
 import pandas as pd
-from data_engineering.transform import transform_data
+from transform import transform_data
 
 def test_transform_data_normalization():
     # Sample data

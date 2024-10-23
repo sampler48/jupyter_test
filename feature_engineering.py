@@ -42,7 +42,7 @@ def save_processed_data(df, filepath):
 
 def main():
     # Load data
-    df = load_data('data/bank_churn.csv')
+    df = load_data('bank_churn.csv')
     
     # Handle missing values
     df = handle_missing_values(df)
@@ -54,7 +54,7 @@ def main():
     df = encode_categorical_features(df)
     
     # Save processed data
-    save_processed_data(df, 'data/processed_bank_churn.csv')
+    save_processed_data(df, 'processed_bank_churn.csv')
 
 if __name__ == "__main__":
     main()

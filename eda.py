@@ -53,7 +53,7 @@ def visualize_distributions(df):
 
 def main():
     # Load data
-    df = load_data('data/bank_churn.csv')
+    df = load_data('bank_churn.csv')
     
     # Check for missing values
     check_missing_values(df)

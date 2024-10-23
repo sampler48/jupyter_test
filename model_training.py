@@ -44,7 +44,7 @@ def evaluate_model(model, x_test, y_test):
 
 def main():
     # Load processed data
-    df = load_processed_data('data/processed_bank_churn.csv')
+    df = load_processed_data('processed_bank_churn.csv')
     
     # Define features and target
     x, y = define_features_target(df)
